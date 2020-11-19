@@ -11,7 +11,7 @@ public class OutNeuron {
     double standardOutValue;
     double[] w;//веса
     double d; //ожидаймое зачение
-    double n = 0.02;//коэффицент
+    double n = 0.000001;//коэффицент
 
     List<Neuron> neurons;
 

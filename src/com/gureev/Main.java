@@ -13,9 +13,6 @@ public class Main {
 //        double[] c2 = new double[]{6.8, 0.28, 0.36, 8, 0.045, 28, 123, 0.9928, 3.02, 0.37, 11.4, 6}; //1
 //        double[] c3 = new double[]{7.3, 0.34, 0.52, 4, 0.256, 23, 96, 0.9950, 3.05, 0.84, 10.3, 5}; //0.5
 
-        double[][] in = getNormMatrix(Config2.in);
-        double[][] inTest = getNormMatrix(Config2.inTest);
-
         double[] c1 = new double[]{7.8, 0.41, 0.68, 1.7, 0.467, 18, 69, 0.9973, 3.08, 1.31, 9.3, 5}; //0
         double[] c2 = new double[]{7.4, 0.7, 0, 1.9, 0.076, 11, 34, 0.9978, 3.51, 0.56, 9.4, 5}; //0
         double[] c3 = new double[]{7.3, 0.65, 0, 1.2, 0.065, 15, 21, 0.9946, 3.39, 0.47, 10, 7}; //0
@@ -23,15 +20,18 @@ public class Main {
         double[] c5 = new double[]{8.3, 0.42, 0.62, 19.25, 0.04, 41, 172, 1.0002, 2.98, 0.67, 9.7, 5}; //1
         double[] c6 = new double[]{6.8, 0.28, 0.36, 8, 0.045, 28, 123, 0.9928, 3.02, 0.37, 11.4, 6}; //1
 
-//        c1 = getNormArray(c1);
-//        c2 = getNormArray(c2);
-//        c3 = getNormArray(c3);
-//        c4 = getNormArray(c4);
-//        c5 = getNormArray(c5);
-//        c6 = getNormArray(c6);
+        c1 = getNormArray(c1);
+        c2 = getNormArray(c2);
+        c3 = getNormArray(c3);
+        c4 = getNormArray(c4);
+        c5 = getNormArray(c5);
+        c6 = getNormArray(c6);
 
-//        NeuralNetwork neuralNetwork = new NeuralNetwork(in, Config2.out, inTest, Config2.outTest);
-        NeuralNetwork neuralNetwork = new NeuralNetwork(Config2.in, Config2.out, Config2.inTest, Config2.outTest);
+        double[][] in = getNormMatrix(Config2.in);
+        double[][] inTest = getNormMatrix(Config2.inTest);
+
+        NeuralNetwork neuralNetwork = new NeuralNetwork(in, Config2.out, inTest, Config2.outTest);
+        //NeuralNetwork neuralNetwork = new NeuralNetwork(Config2.in, Config2.out, Config2.inTest, Config2.outTest);
         neuralNetwork.initNeurons(6, 2);
 
         neuralNetwork.neurons.get(0).arrayC = c1;

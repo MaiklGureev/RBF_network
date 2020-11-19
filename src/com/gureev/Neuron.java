@@ -12,7 +12,7 @@ public class Neuron {
     double f;//значение функции
 
     double n = 0.01;//коэффицент
-    double r = 6; //радиус
+    double r = 2; //радиус
 
     List<OutNeuron> outNeurons;
 

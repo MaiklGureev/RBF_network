@@ -52,7 +52,7 @@ public class NeuralNetwork {
     public void train() {
 
         printNeurons();
-        for (int t = 0; t < 1; t++) {
+        for (int t = 0; t < 2; t++) {
             for (int n = 0; n < input.length; n++) {
                 kMeans();
             }
@@ -62,7 +62,7 @@ public class NeuralNetwork {
 
         calcSigma();
 
-        for (int t = 0; t < 10; t++) {
+        for (int t = 0; t < 100; t++) {
 
             for (int i = 0; i < input.length; i++) {
 //                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
