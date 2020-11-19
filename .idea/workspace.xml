@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ae49af1-c568-4ef5-986f-5c86fd6e59f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Admiral Smollet\IdeaProjects\RBF_network\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jPJoPyzcsoftZP5Dk0UtohoU4Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gureev" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gureev.Main" />
+      <module name="RBF_network" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ae49af1-c568-4ef5-986f-5c86fd6e59f5" name="Default Changelist" comment="" />
+      <created>1603699968250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603699968250</updated>
+      <workItem from="1603699974384" duration="11730000" />
+      <workItem from="1604401172069" duration="1321000" />
+      <workItem from="1604908533126" duration="12209000" />
+      <workItem from="1605078731934" duration="8976000" />
+      <workItem from="1605163981285" duration="19603000" />
+      <workItem from="1605503781969" duration="5501000" />
+      <workItem from="1605592067279" duration="20398000" />
+      <workItem from="1605620453445" duration="15442000" />
+      <workItem from="1605679397828" duration="9108000" />
+      <workItem from="1605695182108" duration="6168000" />
+      <workItem from="1605772545897" duration="9282000" />
+      <workItem from="1605805087839" duration="13927000" />
+    </task>
+    <task id="LOCAL-00001" summary="Init">
+      <created>1605819184694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605819184694</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1605607474338">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605607474338" />
+    <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1603714199775" />
+    <state x="412" y="28" key="CommitChangelistDialog2" timestamp="1605819194424">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="412" y="28" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1605819194424" />
+    <state width="436" height="466" key="DebuggerActiveHint" timestamp="1605610119737">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="436" height="466" key="DebuggerActiveHint/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605610119737" />
+    <state x="152" y="67" key="DiffContextDialog" timestamp="1605819124262">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="152" y="67" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1605819124262" />
+    <state x="669" y="328" key="Github.ShareDialog" timestamp="1605818820954">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="669" y="328" key="Github.ShareDialog/0.0.1600.860@0.0.1600.860" timestamp="1605818820954" />
+    <state x="556" y="138" key="Github.UntrackedFilesDialog" timestamp="1605818851028">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="556" y="138" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1605818851028" />
+    <state width="1557" height="280" key="GridCell.Tab.0.bottom" timestamp="1605818671420">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="385" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605638666174" />
+    <state width="1557" height="280" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605818671420" />
+    <state width="1557" height="280" key="GridCell.Tab.0.center" timestamp="1605818671420">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="385" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605638666174" />
+    <state width="1557" height="280" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605818671420" />
+    <state width="1557" height="280" key="GridCell.Tab.0.left" timestamp="1605818671420">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="385" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605638666174" />
+    <state width="1557" height="280" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605818671420" />
+    <state width="1557" height="280" key="GridCell.Tab.0.right" timestamp="1605818671420">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="385" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605638666174" />
+    <state width="1557" height="280" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605818671420" />
+    <state width="1557" height="245" key="GridCell.Tab.1.bottom" timestamp="1605816183921">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="332" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605638666159" />
+    <state width="1557" height="245" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605816183921" />
+    <state width="1557" height="245" key="GridCell.Tab.1.center" timestamp="1605816183921">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="332" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605638666159" />
+    <state width="1557" height="245" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1605816183921" />
+    <state width="1557" height="245" key="GridCell.Tab.1.left" timestamp="1605816183921">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="332" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605638666159" />
+    <state width="1557" height="245" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1605816183921" />
+    <state width="1557" height="245" key="GridCell.Tab.1.right" timestamp="1605816183921">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="332" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605638666159" />
+    <state width="1557" height="245" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1605816183921" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605819197948">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1605819197948" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1605699763098">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605188000932" />
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1605699763098" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1605090935616">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1605090935616" />
+    <state x="522" y="347" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605805164526">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="522" y="347" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1600.860@0.0.1600.860" timestamp="1605805164526" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gureev/NeuralNetwork.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="w[0]" />
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
