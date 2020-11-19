@@ -23,12 +23,12 @@ public class Main {
         double[] c5 = new double[]{8.3, 0.42, 0.62, 19.25, 0.04, 41, 172, 1.0002, 2.98, 0.67, 9.7, 5}; //1
         double[] c6 = new double[]{6.8, 0.28, 0.36, 8, 0.045, 28, 123, 0.9928, 3.02, 0.37, 11.4, 6}; //1
 
-        c1 = getNormArray(c1);
-        c2 = getNormArray(c2);
-        c3 = getNormArray(c3);
-        c4 = getNormArray(c4);
-        c5 = getNormArray(c5);
-        c6 = getNormArray(c6);
+//        c1 = getNormArray(c1);
+//        c2 = getNormArray(c2);
+//        c3 = getNormArray(c3);
+//        c4 = getNormArray(c4);
+//        c5 = getNormArray(c5);
+//        c6 = getNormArray(c6);
 
 //        NeuralNetwork neuralNetwork = new NeuralNetwork(in, Config2.out, inTest, Config2.outTest);
         NeuralNetwork neuralNetwork = new NeuralNetwork(Config2.in, Config2.out, Config2.inTest, Config2.outTest);
