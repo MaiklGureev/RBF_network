@@ -11,7 +11,7 @@ public class OutNeuron {
     double standardOutValue;
     double[] w;//веса
     double d; //ожидаймое зачение
-    double n = 0.000001;//коэффицент
+    double n = 0.0000001;//коэффицент
 
     List<Neuron> neurons;
 
@@ -20,8 +20,8 @@ public class OutNeuron {
         Random random = new Random();
         //инициализация весов
         for (int i = 0; i < countHiddenNeurons; i++) {
-            w[i] = random.nextDouble();
-//            w[i] = 0.5;
+            //w[i] = random.nextDouble();
+            w[i] = 0.5;
         }
     }
 
