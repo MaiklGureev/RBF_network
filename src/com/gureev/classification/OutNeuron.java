@@ -1,4 +1,4 @@
-package com.gureev;
+package com.gureev.classification;
 
 import java.util.List;
 import java.util.Random;
@@ -11,9 +11,10 @@ public class OutNeuron {
     double standardOutValue;
     double[] w;//веса
     double d; //ожидаймое зачение
-    double n = 0.0000001;//коэффицент
+    double n = 0.000001;//коэффицент
 
     List<Neuron> neurons;
+    public double mse = 0;
 
     public OutNeuron(int countHiddenNeurons) {
         w = new double[countHiddenNeurons];
@@ -48,29 +49,26 @@ public class OutNeuron {
     double calcMainFun() {
         y = 0;
         y += w0;
+        int i = 0;
         for (Neuron neuron : neurons) {
-            for (int i = 0; i < w.length; i++) {
-                y += w[i] * neuron.f;
-            }
+            y += w[i] * neuron.f;
+            i++;
         }
         return y;
     }
 
     //пересчёт весов у нейронов (Wis(t+1)) 4.17а
     public void recalculateWeightsForNeurons() {
+        calcCellFun();
+        calcMainFun();
+        int i = 0;
         for (Neuron neuron : neurons) {
-            recalculateWeights(neuron);
+            double p = neuron.f * (e - d);
+            w[i] = w[i] - n * p;
+            i++;
         }
     }
 
-    //пересчёт весов у нейронов (Wis(t+1)) 4.17а
-    public void recalculateWeights(Neuron neuron) {
-        calcCellFun();
-        for (int i = 0; i < w.length; i++) {
-            double p = neuron.f * (e - d);
-            w[i] = w[i] - n * p;
-        }
-    }
 
     public void setD(double d) {
         if (d == 0 && standardOutValue == 1) {
@@ -82,5 +80,17 @@ public class OutNeuron {
         } else if (d == 0 && standardOutValue == 0) {
             this.d = 1;
         }
+    }
+
+    //функция MSE
+    double calcMSE(double m) {
+        mse = Math.sqrt(mse * (1.0 / (m - 1.0)));
+        return mse;
+    }
+
+    double calcLocalMSE() {
+        double localMSE = Math.pow((y - d), 2);
+        mse += localMSE;
+        return Math.sqrt(localMSE);
     }
 }

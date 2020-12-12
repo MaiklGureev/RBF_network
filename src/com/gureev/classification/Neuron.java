@@ -1,4 +1,4 @@
-package com.gureev;
+package com.gureev.classification;
 
 import java.util.Arrays;
 import java.util.List;
@@ -12,7 +12,7 @@ public class Neuron {
     double f;//значение функции
 
     double n = 0.01;//коэффицент
-    double r = 5; //радиус
+    double r = 6; //радиус
 
     List<OutNeuron> outNeurons;
 
@@ -29,9 +29,14 @@ public class Neuron {
 
     public void calcSigma(List<Neuron> neuronsNeighbors) {
         sigma = 0;
-        for (int n = 0; n < neuronsNeighbors.size(); n++) {
-            sigma += Math.pow(arrayC[n] - neuronsNeighbors.get(n).arrayC[n], 2);
+        for (Neuron neuron : neuronsNeighbors) {
+            for (int n = 0; n < arrayC.length; n++) {
+                sigma += Math.pow(arrayC[n] - neuron.arrayC[n], 2);
+            }
         }
+//        for (int n = 0; n < neuronsNeighbors.size(); n++) {
+//            sigma += Math.pow(arrayC[n] - neuronsNeighbors.get(n).arrayC[n], 2);
+//        }
         sigma = Math.sqrt(sigma / r);
     }
 

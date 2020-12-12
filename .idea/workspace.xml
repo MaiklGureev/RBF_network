@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ae49af1-c568-4ef5-986f-5c86fd6e59f5" name="Default Changelist" comment="Update params">
+    <list default="true" id="4ae49af1-c568-4ef5-986f-5c86fd6e59f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/gureev/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/ConfigCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/ConfigData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/MainForecasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/NeuralNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/Neuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/OutNeuron.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RBF_network/com/gureev/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RBF_network/com/gureev/Config2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RBF_network/com/gureev/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RBF_network/com/gureev/NeuralNetwork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RBF_network/com/gureev/Neuron.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RBF_network/com/gureev/OutNeuron.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/Config2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/Config3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/NeuralNetwork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/Neuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/Neuron.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/OutNeuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/OutNeuron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/Config3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/MainClassification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/NeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/Neuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/Neuron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/OutNeuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/OutNeuron.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="RBF_network" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,7 +42,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1jPJoPyzcsoftZP5Dk0UtohoU4Z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,27 +54,49 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/gureev" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gureev.forecasting" />
       <recent name="com.gureev" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admiral Smollet\IdeaProjects\RBF_network\src\com\gureev" />
+      <recent name="C:\Users\Admiral Smollet\IdeaProjects\RBF_network\src\com\gureev\forecasting" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.gureev.Main" />
+  <component name="RunManager" selected="Application.MainClassification">
+    <configuration name="MainClassification" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.gureev.classification.MainClassification" />
       <module name="RBF_network" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainForecasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gureev.forecasting.MainForecasting" />
+      <module name="RBF_network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gureev.forecasting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainClassification" />
+      <item itemvalue="Application.MainForecasting" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainForecasting" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +120,29 @@
       <workItem from="1605772545897" duration="9282000" />
       <workItem from="1605805087839" duration="15913000" />
       <workItem from="1606210398709" duration="936000" />
-      <workItem from="1606213101125" duration="9001000" />
+      <workItem from="1606213101125" duration="9805000" />
+      <workItem from="1606329661126" duration="3311000" />
+      <workItem from="1606584249595" duration="896000" />
+      <workItem from="1606726732432" duration="1225000" />
+      <workItem from="1606757246385" duration="591000" />
+      <workItem from="1606757864486" duration="9615000" />
+      <workItem from="1606809830827" duration="15217000" />
+      <workItem from="1606830200638" duration="17830000" />
+      <workItem from="1606923739001" duration="19890000" />
+      <workItem from="1606984088845" duration="1921000" />
+      <workItem from="1606986913963" duration="1923000" />
+      <workItem from="1606999405918" duration="770000" />
+      <workItem from="1607111841044" duration="6680000" />
+      <workItem from="1607198664999" duration="6242000" />
+      <workItem from="1607237522862" duration="734000" />
+      <workItem from="1607271801148" duration="15580000" />
+      <workItem from="1607322845025" duration="7433000" />
+      <workItem from="1607330614210" duration="3147000" />
+      <workItem from="1607334872270" duration="369000" />
+      <workItem from="1607336124004" duration="5676000" />
+      <workItem from="1607423599468" duration="1441000" />
+      <workItem from="1607770774481" duration="4426000" />
+      <workItem from="1607794724539" duration="267000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1605819184694</created>
@@ -123,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605821118671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update params and dataset">
+      <created>1606229791404</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606229791404</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,25 +188,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="Update params" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update params" />
+    <MESSAGE value="Update params and dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update params and dataset" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1605607474338">
+    <state x="254" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606825128442">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606825128442" />
+    <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1606584717992">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605607474338" />
-    <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1603714199775" />
-    <state x="412" y="28" key="CommitChangelistDialog2" timestamp="1606223152338">
+    <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1606584717992" />
+    <state x="412" y="28" key="CommitChangelistDialog2" timestamp="1606229790459">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="412" y="28" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606223152338" />
+    <state x="412" y="28" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606229790459" />
     <state x="412" y="28" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1605821117772" />
-    <state width="436" height="466" key="DebuggerActiveHint" timestamp="1605610119737">
+    <state width="460" height="466" key="DebuggerActiveHint" timestamp="1607203945977">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="436" height="466" key="DebuggerActiveHint/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605610119737" />
+    <state width="436" height="466" key="DebuggerActiveHint/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606810706823" />
+    <state width="460" height="466" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1607203945977" />
     <state x="152" y="67" key="DiffContextDialog" timestamp="1605819919833">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -163,59 +225,112 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="556" y="138" key="Github.UntrackedFilesDialog/0.0.1600.860@0.0.1600.860" timestamp="1605818851028" />
-    <state width="1557" height="280" key="GridCell.Tab.0.bottom" timestamp="1606223162428">
+    <state width="1557" height="237" key="GridCell.Tab.-1.bottom" timestamp="1607113602932">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="280" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606223162428" />
-    <state width="1557" height="245" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605821193519" />
-    <state width="1557" height="280" key="GridCell.Tab.0.center" timestamp="1606223162428">
+    <state width="1557" height="237" key="GridCell.Tab.-1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1607113602932" />
+    <state width="1557" height="237" key="GridCell.Tab.-1.center" timestamp="1607113602932">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="280" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606223162428" />
-    <state width="1557" height="245" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605821193519" />
-    <state width="1557" height="280" key="GridCell.Tab.0.left" timestamp="1606223162428">
+    <state width="1557" height="237" key="GridCell.Tab.-1.center/0.0.1600.860@0.0.1600.860" timestamp="1607113602932" />
+    <state width="1557" height="237" key="GridCell.Tab.-1.left" timestamp="1607113602932">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="280" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606223162428" />
-    <state width="1557" height="245" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605821193519" />
-    <state width="1557" height="280" key="GridCell.Tab.0.right" timestamp="1606223162428">
+    <state width="1557" height="237" key="GridCell.Tab.-1.left/0.0.1600.860@0.0.1600.860" timestamp="1607113602932" />
+    <state width="1557" height="237" key="GridCell.Tab.-1.right" timestamp="1607113602932">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="280" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606223162428" />
-    <state width="1557" height="245" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605821193519" />
-    <state width="1557" height="245" key="GridCell.Tab.1.bottom" timestamp="1605821193519">
+    <state width="1557" height="237" key="GridCell.Tab.-1.right/0.0.1600.860@0.0.1600.860" timestamp="1607113602932" />
+    <state width="1557" height="175" key="GridCell.Tab.0.bottom" timestamp="1607775250558">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="332" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605638666159" />
-    <state width="1557" height="245" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605821193519" />
-    <state width="1557" height="245" key="GridCell.Tab.1.center" timestamp="1605821193519">
+    <state width="1557" height="199" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022735" />
+    <state width="1557" height="175" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1607775250558" />
+    <state width="1557" height="175" key="GridCell.Tab.0.center" timestamp="1607775250558">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="332" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605638666159" />
-    <state width="1557" height="245" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1605821193519" />
-    <state width="1557" height="245" key="GridCell.Tab.1.left" timestamp="1605821193519">
+    <state width="1557" height="199" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022735" />
+    <state width="1557" height="175" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1607775250558" />
+    <state width="1557" height="175" key="GridCell.Tab.0.left" timestamp="1607775250558">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="332" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605638666159" />
-    <state width="1557" height="245" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1605821193519" />
-    <state width="1557" height="245" key="GridCell.Tab.1.right" timestamp="1605821193519">
+    <state width="1557" height="199" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022735" />
+    <state width="1557" height="175" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1607775250558" />
+    <state width="1557" height="175" key="GridCell.Tab.0.right" timestamp="1607775250558">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="332" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605638666159" />
-    <state width="1557" height="245" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1605821193519" />
-    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605821187432">
+    <state width="1557" height="199" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022735" />
+    <state width="1557" height="175" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1607775250558" />
+    <state width="1557" height="374" key="GridCell.Tab.1.bottom" timestamp="1607289262228">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1557" height="199" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022736" />
+    <state width="1557" height="374" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1607289262228" />
+    <state width="1557" height="374" key="GridCell.Tab.1.center" timestamp="1607289262228">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="199" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022736" />
+    <state width="1557" height="374" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1607289262228" />
+    <state width="1557" height="374" key="GridCell.Tab.1.left" timestamp="1607289262228">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="199" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022735" />
+    <state width="1557" height="374" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1607289262228" />
+    <state width="1557" height="374" key="GridCell.Tab.1.right" timestamp="1607289262228">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="199" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022736" />
+    <state width="1557" height="374" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1607289262228" />
+    <state x="355" y="621" width="1557" height="237" key="GridCell.Tab.2.bottom" timestamp="1607113600522">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="355" y="621" width="1557" height="237" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1607113600522" />
+    <state x="355" y="621" width="1557" height="237" key="GridCell.Tab.2.center" timestamp="1607113600522">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="355" y="621" width="1557" height="237" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1607113600522" />
+    <state x="355" y="621" width="1557" height="237" key="GridCell.Tab.2.left" timestamp="1607113600522">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="355" y="621" width="1557" height="237" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1607113600522" />
+    <state x="355" y="621" width="1557" height="237" key="GridCell.Tab.2.right" timestamp="1607113600522">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="355" y="621" width="1557" height="237" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1607113600522" />
+    <state x="355" y="621" width="916" height="199" key="GridCell.Tab.3.bottom" timestamp="1606930458246">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="355" y="621" width="916" height="199" key="GridCell.Tab.3.bottom/0.0.1600.860@0.0.1600.860" timestamp="1606930458246" />
+    <state x="355" y="621" width="916" height="199" key="GridCell.Tab.3.center" timestamp="1606930458245">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="355" y="621" width="916" height="199" key="GridCell.Tab.3.center/0.0.1600.860@0.0.1600.860" timestamp="1606930458245" />
+    <state x="355" y="621" width="916" height="199" key="GridCell.Tab.3.left" timestamp="1606930458244">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="355" y="621" width="916" height="199" key="GridCell.Tab.3.left/0.0.1600.860@0.0.1600.860" timestamp="1606930458244" />
+    <state x="355" y="621" width="916" height="199" key="GridCell.Tab.3.right" timestamp="1606930458245">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="355" y="621" width="916" height="199" key="GridCell.Tab.3.right/0.0.1600.860@0.0.1600.860" timestamp="1606930458245" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606229798914">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606229798914" />
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1605821187432" />
+    <state x="355" y="621" width="932" height="267" key="dock-window-1" timestamp="1606930466369">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="355" y="621" width="932" height="267" key="dock-window-1/0.0.1600.860@0.0.1600.860" timestamp="1606930466369" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1605699763098">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605188000932" />
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1605699763098" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1605090935616">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1606584700043">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1605090935616" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1606584700043" />
     <state x="522" y="347" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605805164526">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -225,16 +340,28 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/gureev/NeuralNetwork.java</url>
-          <line>128</line>
+          <url>file://$PROJECT_DIR$/src/com/gureev/classification/NeuralNetwork.java</url>
+          <line>136</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gureev/forecasting/NeuralNetwork.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/gureev/classification/OutNeuron.java</url>
+          <line>18</line>
+          <properties class="com.gureev.classification.OutNeuron" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="w[0]" />
-        <watch expression="this" />
+        <watch expression="this" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

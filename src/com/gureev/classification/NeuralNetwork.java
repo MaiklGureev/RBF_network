@@ -1,20 +1,17 @@
-package com.gureev;
+package com.gureev.classification;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class NeuralNetwork {
 
-    double input[][];
-    double output[];
-    double inputTest[][];
-    double outputTest[];
+    double[][] input;
+    double[] output;
+    double[][] inputTest;
+    double[] outputTest;
 
     List<Neuron> neurons;
     List<OutNeuron> outNeurons;
-
-    int trainingCount;
 
     public NeuralNetwork(double[][] input, double[] output, double[][] inputTest, double[] outputTest) {
         this.input = input;
@@ -62,8 +59,9 @@ public class NeuralNetwork {
 
         calcSigma();
 
-        for (int t = 0; t < 70; t++) {
-
+        for (int t = 0; t < 700; t++) {
+            outNeurons.get(0).mse = 0;
+            outNeurons.get(1).mse = 0;
             for (int i = 0; i < input.length; i++) {
 //                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
                 for (int n = 0; n < neurons.size(); n++) {
@@ -72,18 +70,24 @@ public class NeuralNetwork {
 //                    System.out.println(neurons.get(n).toString());
                 }
 
-                System.out.println("arrayX " + Arrays.toString(input[i]));
-                System.out.println("d  " + output[i]);
+//                System.out.println("arrayX " + Arrays.toString(input[i]));
+//                System.out.println("d  " + output[i]);
 
                 for (int j = 0; j < outNeurons.size(); j++) {
                     outNeurons.get(j).setD(output[i]);
                     outNeurons.get(j).calcGaussianRadFunctionsForHideNeurons();
                     outNeurons.get(j).recalculateWeightsForNeurons();
-                    System.out.println("    OutNeuron N" + j);
-                    System.out.println("        y=" + outNeurons.get(j).y);
-                    System.out.println("        E=" + outNeurons.get(j).e);
+                    outNeurons.get(j).calcLocalMSE();
+//                    System.out.println("OutNeuron N" + j);
+//                    System.out.println("    y=" + outNeurons.get(j).y);
+//                    System.out.println("    E=" + outNeurons.get(j).e);
                 }
             }
+            System.out.println("########################################################################");
+            double mse0 = outNeurons.get(0).calcMSE(input.length - 1);
+            double mse1 = outNeurons.get(1).calcMSE(input.length - 1);
+            //System.out.println(t + " MSE0 = " + mse0 + " MSE1 = " + mse1);
+            System.out.println(t + " MSE = " + (mse0 + mse1) / 2);
 
         }
 
@@ -100,8 +104,9 @@ public class NeuralNetwork {
 
     public void test() {
         int counter = 0;
+        outNeurons.get(0).mse = 0;
+        outNeurons.get(1).mse = 0;
         for (int i = 0; i < inputTest.length; i++) {
-
             System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
             for (int n = 0; n < neurons.size(); n++) {
                 neurons.get(n).arrayX = inputTest[i];
@@ -109,9 +114,12 @@ public class NeuralNetwork {
             for (int j = 0; j < outNeurons.size(); j++) {
                 outNeurons.get(j).setD(outputTest[i]);
                 outNeurons.get(j).calcGaussianRadFunctionsForHideNeurons();
-                System.out.println("    OutNeuron N" + j);
-                System.out.println("        y=" + outNeurons.get(j).calcMainFun());
-                System.out.println("        E=" + outNeurons.get(j).calcCellFun());
+                outNeurons.get(j).calcMainFun();
+                outNeurons.get(j).calcCellFun();
+                outNeurons.get(j).calcLocalMSE();
+                System.out.println("OutNeuron N" + j);
+                System.out.println("    y=" + outNeurons.get(j).y);
+                System.out.println("    E=" + outNeurons.get(j).e);
             }
             double value0 = outNeurons.get(0).calcCellFun();
             double value1 = outNeurons.get(1).calcCellFun();
@@ -127,6 +135,9 @@ public class NeuralNetwork {
             }
         }
         System.out.println("Total right result: " + counter + "/" + outputTest.length);
+        double mse0 = outNeurons.get(0).calcMSE(inputTest.length - 1);
+        double mse1 = outNeurons.get(1).calcMSE(inputTest.length - 1);
+        System.out.println("MSE = " + (mse0 + mse1) / 2);
     }
 
 

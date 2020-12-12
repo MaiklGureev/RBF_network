@@ -1,6 +1,6 @@
-package com.gureev;
+package com.gureev.classification;
 
-public class Config3 {
+public class Config {
     //0-red 1-white
     public static final double[][] inTest = new double[][]{
             {5.4, 0.835, 0.08, 1.2, 0.046, 13, 93, 0.9924, 3.57, 0.85, 13, 7},
