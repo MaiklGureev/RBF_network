@@ -11,8 +11,8 @@ public class Neuron {
     double sigma;
     double f;//значение функции
 
-    double n = 0.01;//коэффицент
-    double r = 6; //радиус
+    double n = 0.5;//коэффицент
+    double r = 5; //радиус
 
     List<OutNeuron> outNeurons;
 

@@ -19,8 +19,8 @@ public class OutNeuron {
         Random random = new Random();
         //инициализация весов
         for (int i = 0; i < countHiddenNeurons; i++) {
-            //w[i] = random.nextDouble();
-            w[i] = 0.5;
+            w[i] = random.nextDouble();
+            //w[i] = 0.5;
         }
     }
 
@@ -32,7 +32,7 @@ public class OutNeuron {
             y += w[i] * neuron.f;
             i++;
         }
-        //y = Math.ceil(y * 100) / 100;
+        y = Math.ceil(y * 100) / 100;
         return y;
     }
 

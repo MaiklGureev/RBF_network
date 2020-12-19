@@ -13,7 +13,7 @@ public class Neuron {
 
     double n = 0.01;//коэффицент
     double r = 4.5; //радиус
-//    double r = 2; //радиус
+//    double r = 4.5; //радиус
 
     List<OutNeuron> outNeurons;
 
@@ -32,7 +32,7 @@ public class Neuron {
     public void calcSigma(List<Neuron> neuronsNeighbors) {
         sigma = 0;
         for (Neuron neuron : neuronsNeighbors) {
-            for (int n = 0; n < arrayC.length; n++) {
+            for (int n = 0; n < arrayX.length; n++) {
                 sigma += Math.pow(arrayC[n] - neuron.arrayC[n], 2);
             }
         }

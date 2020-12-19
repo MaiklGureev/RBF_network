@@ -55,40 +55,38 @@ public class NeuralNetwork {
             }
         }
         System.out.println("########################################################################");
-        printNeurons();
+        //printNeurons();
 
         calcSigma();
 
-        for (int t = 0; t < 700; t++) {
-            outNeurons.get(0).mse = 0;
-            outNeurons.get(1).mse = 0;
-            for (int i = 0; i < input.length; i++) {
-//                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        for (int t = 0; t < 1; t++) {
+
+            double counter = 0;
+            for (int i = 0; i < 10; i++) {
+
                 for (int n = 0; n < neurons.size(); n++) {
                     neurons.get(n).arrayX = input[i];
-//                    System.out.println("Neuron N" + n);
-//                    System.out.println(neurons.get(n).toString());
                 }
-
-//                System.out.println("arrayX " + Arrays.toString(input[i]));
-//                System.out.println("d  " + output[i]);
 
                 for (int j = 0; j < outNeurons.size(); j++) {
                     outNeurons.get(j).setD(output[i]);
                     outNeurons.get(j).calcGaussianRadFunctionsForHideNeurons();
                     outNeurons.get(j).recalculateWeightsForNeurons();
                     outNeurons.get(j).calcLocalMSE();
-//                    System.out.println("OutNeuron N" + j);
-//                    System.out.println("    y=" + outNeurons.get(j).y);
-//                    System.out.println("    E=" + outNeurons.get(j).e);
+                }
+                double value0 = outNeurons.get(0).y;
+                double value1 = outNeurons.get(1).y;
+                double foundClass;
+                if (value0 > value1) {
+                    foundClass = 0;
+                } else {
+                    foundClass = 1;
+                }
+                if (foundClass == output[i]) {
+                    counter++;
                 }
             }
-            System.out.println("########################################################################");
-            double mse0 = outNeurons.get(0).calcMSE(input.length - 1);
-            double mse1 = outNeurons.get(1).calcMSE(input.length - 1);
-            //System.out.println(t + " MSE0 = " + mse0 + " MSE1 = " + mse1);
-            System.out.println(t + " MSE = " + (mse0 + mse1) / 2);
-
+            System.out.println(t + " Total right result: " + (int) counter + "/" + output.length + " error: " + Math.ceil(counter / output.length * 100) / 100);
         }
 
     }
@@ -103,9 +101,7 @@ public class NeuralNetwork {
     }
 
     public void test() {
-        int counter = 0;
-        outNeurons.get(0).mse = 0;
-        outNeurons.get(1).mse = 0;
+        double counter = 0;
         for (int i = 0; i < inputTest.length; i++) {
             System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
             for (int n = 0; n < neurons.size(); n++) {
@@ -116,28 +112,24 @@ public class NeuralNetwork {
                 outNeurons.get(j).calcGaussianRadFunctionsForHideNeurons();
                 outNeurons.get(j).calcMainFun();
                 outNeurons.get(j).calcCellFun();
-                outNeurons.get(j).calcLocalMSE();
-                System.out.println("OutNeuron N" + j);
-                System.out.println("    y=" + outNeurons.get(j).y);
-                System.out.println("    E=" + outNeurons.get(j).e);
+//                System.out.println("OutNeuron N" + j);
+//                System.out.println("    y=" + outNeurons.get(j).y);
+//                System.out.println("    E=" + outNeurons.get(j).e);
             }
-            double value0 = outNeurons.get(0).calcCellFun();
-            double value1 = outNeurons.get(1).calcCellFun();
+            double value0 = outNeurons.get(0).y;
+            double value1 = outNeurons.get(1).y;
             double foundClass;
             if (value0 > value1) {
-                foundClass = 1;
-            } else {
                 foundClass = 0;
+            } else {
+                foundClass = 1;
             }
             System.out.println("Detected class " + foundClass + ".Right class: " + outputTest[i]);
             if (foundClass == outputTest[i]) {
                 counter++;
             }
         }
-        System.out.println("Total right result: " + counter + "/" + outputTest.length);
-        double mse0 = outNeurons.get(0).calcMSE(inputTest.length - 1);
-        double mse1 = outNeurons.get(1).calcMSE(inputTest.length - 1);
-        System.out.println("MSE = " + (mse0 + mse1) / 2);
+        System.out.println("Total right result: " + (int) counter + "/" + outputTest.length + " " + (1 - Math.ceil(counter / outputTest.length * 100) / 100));
     }
 
 

@@ -1,7 +1,5 @@
 package com.gureev.classification;
 
-import com.gureev.Tools;
-
 public class MainClassification {
 
 
@@ -15,15 +13,18 @@ public class MainClassification {
         double[] c5 = new double[]{8.3, 0.42, 0.62, 19.25, 0.04, 41, 172, 1.0002, 2.98, 0.67, 9.7, 5}; //1
         double[] c6 = new double[]{6.8, 0.28, 0.36, 8, 0.045, 28, 123, 0.9928, 3.02, 0.37, 11.4, 6}; //1
 
-        c1 = Tools.getNormArray(c1);
-        c2 = Tools.getNormArray(c2);
-        c3 = Tools.getNormArray(c3);
-        c4 = Tools.getNormArray(c4);
-        c5 = Tools.getNormArray(c5);
-        c6 = Tools.getNormArray(c6);
+//        c1 = Tools.getNormArray(c1);
+//        c2 = Tools.getNormArray(c2);
+//        c3 = Tools.getNormArray(c3);
+//        c4 = Tools.getNormArray(c4);
+//        c5 = Tools.getNormArray(c5);
+//        c6 = Tools.getNormArray(c6);
 
-        double[][] in = Tools.getNormMatrix(Config.in);
-        double[][] inTest = Tools.getNormMatrix(Config.inTest);
+        //double[][] in = Tools.getNormMatrix(Config.in);
+        //double[][] inTest = Tools.getNormMatrix(Config.inTest);
+
+        double[][] in = Config.in;
+        double[][] inTest = Config.inTest;
 
         NeuralNetwork neuralNetwork = new NeuralNetwork(in, Config.out, inTest, Config.outTest);
         neuralNetwork.initNeurons(6, 2);
@@ -47,7 +48,7 @@ public class MainClassification {
         }
 
         neuralNetwork.train();
-        //neuralNetwork.test();
+        neuralNetwork.test();
 
     }
 

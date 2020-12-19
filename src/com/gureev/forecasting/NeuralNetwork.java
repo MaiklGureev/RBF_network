@@ -117,7 +117,7 @@ public class NeuralNetwork {
 
             System.out.println(currentIndex + " error = " + outNeurons.get(0).calcLocalMSE());
 
-            arrayX = addNextValueToArray(arrayX, inputTest[currentIndex]);
+            arrayX = addNextValueToArray(arrayX, forecastingArray[currentIndex]);
 
             currentIndex++;
         }

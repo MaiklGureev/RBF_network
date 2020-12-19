@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ae49af1-c568-4ef5-986f-5c86fd6e59f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gureev/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/ConfigCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/ConfigData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/MainForecasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/NeuralNetwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/Neuron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/OutNeuron.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/Config3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/MainClassification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/NeuralNetwork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/Neuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/Neuron.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/OutNeuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/OutNeuron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/classification/MainClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/MainClassification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/classification/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/NeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/classification/Neuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/Neuron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/classification/OutNeuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/OutNeuron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/forecasting/ConfigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/ConfigData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/forecasting/MainForecasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/MainForecasting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/forecasting/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/NeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/forecasting/Neuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/Neuron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gureev/forecasting/OutNeuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/OutNeuron.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +48,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/gureev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -67,7 +65,7 @@
       <recent name="C:\Users\Admiral Smollet\IdeaProjects\RBF_network\src\com\gureev\forecasting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClassification">
+  <component name="RunManager" selected="Application.MainForecasting">
     <configuration name="MainClassification" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.gureev.classification.MainClassification" />
       <module name="RBF_network" />
@@ -142,7 +140,13 @@
       <workItem from="1607336124004" duration="5676000" />
       <workItem from="1607423599468" duration="1441000" />
       <workItem from="1607770774481" duration="4426000" />
-      <workItem from="1607794724539" duration="267000" />
+      <workItem from="1607794724539" duration="6274000" />
+      <workItem from="1607804021484" duration="4590000" />
+      <workItem from="1607922713427" duration="10855000" />
+      <workItem from="1607942385322" duration="7883000" />
+      <workItem from="1608020158548" duration="5863000" />
+      <workItem from="1608032774469" duration="167000" />
+      <workItem from="1608055787029" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1605819184694</created>
@@ -179,17 +183,26 @@
       <option name="project" value="LOCAL" />
       <updated>1606229791404</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Release">
+      <created>1607795039290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607795039290</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Init" />
     <MESSAGE value="Update params" />
     <MESSAGE value="Update params and dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update params and dataset" />
+    <MESSAGE value="Release" />
+    <option name="LAST_COMMIT_MESSAGE" value="Release" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -203,20 +216,20 @@
     </state>
     <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605607474338" />
     <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1606584717992" />
-    <state x="412" y="28" key="CommitChangelistDialog2" timestamp="1606229790459">
+    <state x="412" y="28" key="CommitChangelistDialog2" timestamp="1607795037960">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="412" y="28" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606229790459" />
-    <state x="412" y="28" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1605821117772" />
+    <state x="412" y="28" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1607795037960" />
     <state width="460" height="466" key="DebuggerActiveHint" timestamp="1607203945977">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="436" height="466" key="DebuggerActiveHint/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606810706823" />
     <state width="460" height="466" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1607203945977" />
-    <state x="152" y="67" key="DiffContextDialog" timestamp="1605819919833">
+    <state x="152" y="67" key="DiffContextDialog" timestamp="1607795065810">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="152" y="67" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1605819919833" />
+    <state x="152" y="67" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1607795065810" />
     <state x="669" y="328" key="Github.ShareDialog" timestamp="1605818820954">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -241,46 +254,46 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="237" key="GridCell.Tab.-1.right/0.0.1600.860@0.0.1600.860" timestamp="1607113602932" />
-    <state width="1557" height="175" key="GridCell.Tab.0.bottom" timestamp="1607775250558">
+    <state width="1557" height="374" key="GridCell.Tab.0.bottom" timestamp="1608026347814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="199" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022735" />
-    <state width="1557" height="175" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1607775250558" />
-    <state width="1557" height="175" key="GridCell.Tab.0.center" timestamp="1607775250558">
+    <state width="1557" height="374" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1608026347814" />
+    <state width="1557" height="374" key="GridCell.Tab.0.center" timestamp="1608026347814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="199" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022735" />
-    <state width="1557" height="175" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1607775250558" />
-    <state width="1557" height="175" key="GridCell.Tab.0.left" timestamp="1607775250558">
+    <state width="1557" height="374" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1608026347814" />
+    <state width="1557" height="374" key="GridCell.Tab.0.left" timestamp="1608026347814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="199" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022735" />
-    <state width="1557" height="175" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1607775250558" />
-    <state width="1557" height="175" key="GridCell.Tab.0.right" timestamp="1607775250558">
+    <state width="1557" height="374" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1608026347814" />
+    <state width="1557" height="374" key="GridCell.Tab.0.right" timestamp="1608026347814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="199" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022735" />
-    <state width="1557" height="175" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1607775250558" />
-    <state width="1557" height="374" key="GridCell.Tab.1.bottom" timestamp="1607289262228">
+    <state width="1557" height="374" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1608026347814" />
+    <state width="1557" height="374" key="GridCell.Tab.1.bottom" timestamp="1608026347814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="199" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022736" />
-    <state width="1557" height="374" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1607289262228" />
-    <state width="1557" height="374" key="GridCell.Tab.1.center" timestamp="1607289262228">
+    <state width="1557" height="374" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1608026347814" />
+    <state width="1557" height="374" key="GridCell.Tab.1.center" timestamp="1608026347814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="199" key="GridCell.Tab.1.center/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022736" />
-    <state width="1557" height="374" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1607289262228" />
-    <state width="1557" height="374" key="GridCell.Tab.1.left" timestamp="1607289262228">
+    <state width="1557" height="374" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1608026347814" />
+    <state width="1557" height="374" key="GridCell.Tab.1.left" timestamp="1608026347814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="199" key="GridCell.Tab.1.left/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022735" />
-    <state width="1557" height="374" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1607289262228" />
-    <state width="1557" height="374" key="GridCell.Tab.1.right" timestamp="1607289262228">
+    <state width="1557" height="374" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1608026347814" />
+    <state width="1557" height="374" key="GridCell.Tab.1.right" timestamp="1608026347814">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="199" key="GridCell.Tab.1.right/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606830022736" />
-    <state width="1557" height="374" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1607289262228" />
+    <state width="1557" height="374" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1608026347814" />
     <state x="355" y="621" width="1557" height="237" key="GridCell.Tab.2.bottom" timestamp="1607113600522">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -313,11 +326,15 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="355" y="621" width="916" height="199" key="GridCell.Tab.3.right/0.0.1600.860@0.0.1600.860" timestamp="1606930458245" />
-    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606229798914">
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1607795067795">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606229798914" />
-    <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1605821187432" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1607795067795" />
+    <state x="1011" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608402628285">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="1011" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1608402628285" />
     <state x="355" y="621" width="932" height="267" key="dock-window-1" timestamp="1606930466369">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -339,16 +356,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/gureev/classification/NeuralNetwork.java</url>
-          <line>136</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/gureev/forecasting/NeuralNetwork.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/gureev/classification/OutNeuron.java</url>
           <line>18</line>
