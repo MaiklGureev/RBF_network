@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ae49af1-c568-4ef5-986f-5c86fd6e59f5" name="Default Changelist" comment="">
+    <list default="true" id="4ae49af1-c568-4ef5-986f-5c86fd6e59f5" name="Default Changelist" comment="Fix bugs">
+      <change afterPath="$PROJECT_DIR$/Отчёты/lab2/~$b2_Gureev.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/classification/MainClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/MainClassification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/classification/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/NeuralNetwork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/classification/Neuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/Neuron.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/classification/OutNeuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/classification/OutNeuron.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/forecasting/ConfigData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/ConfigData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/forecasting/MainForecasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/MainForecasting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/forecasting/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/NeuralNetwork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/forecasting/Neuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/Neuron.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gureev/forecasting/OutNeuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gureev/forecasting/OutNeuron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +40,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/neural-network-2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -147,6 +142,15 @@
       <workItem from="1608020158548" duration="5863000" />
       <workItem from="1608032774469" duration="167000" />
       <workItem from="1608055787029" duration="292000" />
+      <workItem from="1608402619378" duration="113000" />
+      <workItem from="1608549155753" duration="469000" />
+      <workItem from="1608629941148" duration="627000" />
+      <workItem from="1608638193317" duration="121000" />
+      <workItem from="1609226202820" duration="71000" />
+      <workItem from="1609229922418" duration="44000" />
+      <workItem from="1609706395237" duration="45000" />
+      <workItem from="1609751018700" duration="86000" />
+      <workItem from="1610190032374" duration="1780000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1605819184694</created>
@@ -190,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607795039290</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fix bugs">
+      <created>1608402660779</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608402660779</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,11 +209,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Init" />
     <MESSAGE value="Update params" />
     <MESSAGE value="Update params and dataset" />
     <MESSAGE value="Release" />
-    <option name="LAST_COMMIT_MESSAGE" value="Release" />
+    <MESSAGE value="Fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -216,11 +229,11 @@
     </state>
     <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605607474338" />
     <state x="605" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1606584717992" />
-    <state x="412" y="28" key="CommitChangelistDialog2" timestamp="1607795037960">
+    <state x="412" y="28" key="CommitChangelistDialog2" timestamp="1610191921251">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="412" y="28" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606229790459" />
-    <state x="412" y="28" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1607795037960" />
+    <state x="412" y="28" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1610191921251" />
+    <state x="412" y="28" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1608402658747" />
     <state width="460" height="466" key="DebuggerActiveHint" timestamp="1607203945977">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -230,6 +243,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="152" y="67" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1607795065810" />
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1610191812241">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1610191812241" />
+    <state x="580" y="187" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1609229964219" />
     <state x="669" y="328" key="Github.ShareDialog" timestamp="1605818820954">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -326,11 +344,15 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="355" y="621" width="916" height="199" key="GridCell.Tab.3.right/0.0.1600.860@0.0.1600.860" timestamp="1606930458245" />
-    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1607795067795">
+    <state x="303" y="75" key="SettingsEditor" timestamp="1610190537896">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="303" y="75" key="SettingsEditor/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1610190537896" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2" timestamp="1608402662973">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1606229798914" />
-    <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1607795067795" />
+    <state x="392" y="165" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1608402662973" />
     <state x="1011" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608402628285">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -344,9 +366,10 @@
     </state>
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1605188000932" />
     <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1605699763098" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1606584700043">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1610190535972">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1440.860@0.0.1600.860" timestamp="1610190535972" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1606584700043" />
     <state x="522" y="347" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605805164526">
       <screen x="0" y="0" width="1600" height="860" />
